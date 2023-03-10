@@ -1,10 +1,12 @@
 # Practice Mock Portfolio app
 
 ## Web app portfolio is powered by:
-- 
-
-
-
+- Next.js / React
+- TypeScript
+- TailwindCSS
+- Sanity.io backend
+- Framer Motion
+- Deployment via Vercel
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
