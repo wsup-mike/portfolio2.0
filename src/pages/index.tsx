@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Mike's Portfolio Site</title>
       </Head>
-      <h1>Hey Sup Ya'll!</h1>
+      <h1 className='text-red-500'>Hey Sup Ya'll!</h1>
     </div>
   )
 }
