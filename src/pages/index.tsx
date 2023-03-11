@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Mike's Portfolio Site</title>
       </Head>
-      <h1 className='text-red-500'>Hey Sup YOu!</h1>
+      <h1 className='text-blue-500 text-2xl'>Hey Sup YOu!</h1>
     </div>
   )
 }
