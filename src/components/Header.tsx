@@ -21,7 +21,7 @@ function Header({}: Props) {
                 fgColor='gray'
                 bgColor='transparent'
             />
-            <p className='uppercase hidden '>Get in touch</p>
+            <p className='uppercase hidden md:inline-flex'>Get in touch</p>
         </div>
     </header>
 
