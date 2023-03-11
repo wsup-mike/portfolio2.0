@@ -4,7 +4,7 @@ type Props = {}
 
 function Header({}: Props) {
   return (
-    <div>Header</div>
+    <header>I am a Header</header>
   )
 }
 
