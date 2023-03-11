@@ -6,9 +6,9 @@ type Props = {}
 
 function BackgroundCircles({}: Props) {
   return (
-    <div>
-        <div className='border border-red-500 w-[200px] h-[200px] rounded-full mt-52 animate-spin' />
-        <div className='border border-blue-400 ' />
+    <div className='relative flex justify-center items-center'>
+        <div className='border border-gray-200 border-t-4 w-[200px] h-[200px] rounded-full mt-52 animate-ping' />
+        <div className=' ' />
         <div />
         <div />
         <div />
