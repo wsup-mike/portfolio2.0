@@ -9,16 +9,18 @@ function Header({}: Props) {
     <header className='sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
         <motion.div 
             className='flex flex-row item-center'
-            initial{{ // the animation's starting point
+            initial={{ // the animation's starting point
                 x: -500, //start 500 pixels from left
                 opacity: 0, // starts completely invisible
                 scale: 0.5, // starts at half of original size
             }}
-
             animate={{
                 x: 0, // once fully animated, ends at initial starting point
                 opacity: 1, // becomes 100% opaque
                 scale: 1, // becomes fully enlarged to full size
+            }}
+            transition={{
+                duration: 1.0,
             }}
         >
             {/* Social Icons */}
