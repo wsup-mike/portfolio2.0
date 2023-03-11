@@ -6,7 +6,13 @@ type Props = {}
 
 function BackgroundCircles({}: Props) {
   return (
-    <div>BackgroundCircles</div>
+    <div>
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+    </div>
   )
 }
 
