@@ -7,7 +7,20 @@ type Props = {}
 function Header({}: Props) {
   return (
     <header className='sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
-        <motion.div className='flex flex-row item-center'>
+        <motion.div 
+            className='flex flex-row item-center'
+            initial{{ // the animation's starting point
+                x: -500, //start 500 pixels from left
+                opacity: 0, // starts completely invisible
+                scale: 0.5, // starts at half of original size
+            }}
+
+            animate={{
+                x: 0, // once fully animated, ends at initial starting point
+                opacity: 1, // becomes 100% opaque
+                scale: 1, // becomes fully enlarged to full size
+            }}
+        >
             {/* Social Icons */}
             <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
             <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
