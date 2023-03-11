@@ -7,7 +7,7 @@ type Props = {}
 function BackgroundCircles({}: Props) {
   return (
     <div>
-        <div />
+        <div className='border border-red-500 ' />
         <div />
         <div />
         <div />
