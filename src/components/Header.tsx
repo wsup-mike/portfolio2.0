@@ -14,7 +14,7 @@ function Header({}: Props) {
             <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
             <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
         </div>
-        <div>
+        <div className='flex flex-row items-center text-gray-300 cursor-pointer'>
             <SocialIcon 
                 className='cursor-pointer'
                 network='email'
