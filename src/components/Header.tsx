@@ -6,13 +6,16 @@ type Props = {}
 function Header({}: Props) {
   return (
     <header>
-        <div>
+        <div className='flex flex-row item-center'>
             {/* Social Icons */}
             <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
             <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
             <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
             <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
             <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
+        </div>
+        <div>
+            
         </div>
     </header>
 
