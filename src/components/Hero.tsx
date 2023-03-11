@@ -6,7 +6,7 @@ type Props = {}
 function Hero({}: Props) {
     const [text, count] = useTypewriter({
         words: [
-            "Wsup, Im Mike", 
+            "Wsup, Im Mike!", 
             "Adventurer-who-loves-@SushiStation.tsx", 
             "<LoveFrenchFries />", 
             "Global-Citizen-Generosity-minded"
@@ -17,7 +17,12 @@ function Hero({}: Props) {
 
 
     return (
-        <div>Hero</div>
+        <div>
+            <h1>
+            <span>{text}</span>
+            <Cursor cursorColor='#f7ab0a'/>
+            </h1>
+        </div>
     )
 }
 
