@@ -5,7 +5,7 @@ import Hero from '@/components/Hero';
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-[rgb(36,36,36)] text-white h-screen'>
       <Head>
         <title>Mike's Portfolio Site</title>
       </Head>
@@ -16,7 +16,7 @@ export default function Home() {
     {/* Hero */}
     <section id="hero">
       <Hero 
-        
+
       />
     </section>
 
