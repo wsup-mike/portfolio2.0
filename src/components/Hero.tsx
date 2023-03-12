@@ -35,7 +35,13 @@ function Hero({}: Props) {
                     <span className='mr-3'>{text}</span>
                     <Cursor cursorColor='#f7ab0a'/>
                 </h1>
-                
+                <div>
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                </div>
             </div>
         </div>
     )
