@@ -23,11 +23,15 @@ function Hero({}: Props) {
         <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
             <BackgroundCircles />
             <img src={peanut} className='h-32 w-32 relative rounded-full mx-auto object-cover' alt="Peanuts picture!" />
-            
-            <h1>
-                <span>{text}</span>
-                <Cursor cursorColor='#f7ab0a'/>
-            </h1>
+            <div>
+                <h2 >
+                    MORKIE (Origin: Fili-Peanut)
+                </h2>
+                <h1>
+                    <span>{text}</span>
+                    <Cursor cursorColor='#f7ab0a'/>
+                </h1>
+            </div>
         </div>
     )
 }
