@@ -37,10 +37,18 @@ function Hero({}: Props) {
                     <Cursor cursorColor='#f7ab0a'/>
                 </h1>
                 <div className='pt-5'>
-                    <button className='heroButton'>About</button>
-                    <button className='heroButton'>Experience</button>
-                    <button className='heroButton'>Skills</button>
-                    <button className='heroButton'>Projects</button>
+                    <Link href="#about">
+                        <button className='heroButton'>About</button>
+                    </Link>
+                    <Link>
+                        <button className='heroButton'>Experience</button>
+                    </Link>
+                    <Link>
+                        <button className='heroButton'>Skills</button>
+                    </Link>
+                    <Link>
+                        <button className='heroButton'>Projects</button>
+                    </Link>
                 </div>
             </div>
         </div>
