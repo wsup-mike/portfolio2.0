@@ -3,6 +3,7 @@ import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles';
 
 
+
 type Props = {}
 
 function Hero({}: Props) {
@@ -35,7 +36,7 @@ function Hero({}: Props) {
                     <span className='mr-3'>{text}</span>
                     <Cursor cursorColor='#f7ab0a'/>
                 </h1>
-                <div>
+                <div className='pt-5'>
                     <button className='heroButton'>About</button>
                     <button className='heroButton'>Experience</button>
                     <button className='heroButton'>Skills</button>
