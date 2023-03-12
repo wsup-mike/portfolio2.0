@@ -1,17 +1,18 @@
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles';
-import Image from 'next/image';
+
 
 type Props = {}
 
 function Hero({}: Props) {
+    const peanut = '/assets/peanut.jpg'
     const [text, count] = useTypewriter({
         words: [
-            "Wsup, Im Mike!", 
-            "Adventurer-who-loves-@SushiStation.tsx", 
+            "Wsup, Im Peanut!", 
+            "I love going to the park...a LOT!", 
             "<LoveFrenchFries />", 
-            "Global-Citizen-Generosity-minded"
+            "Gizzards are my thing..."
         ],
         loop: true,
         delaySpeed: 2000,
@@ -21,7 +22,8 @@ function Hero({}: Props) {
     return (
         <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
             <BackgroundCircles />
-            <img src="../assets/peanut.jpg" className='h-32 w-32' alt="Peanuts picture!" />
+            <img src={peanut} className='h-32 w-32 relative rounded-full mx-auto object-cover' alt="Peanuts picture!" />
+            
             <h1>
                 <span>{text}</span>
                 <Cursor cursorColor='#f7ab0a'/>
