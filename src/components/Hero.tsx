@@ -1,7 +1,7 @@
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles';
-
+import Link from 'next/link';
 
 
 type Props = {}
@@ -40,13 +40,13 @@ function Hero({}: Props) {
                     <Link href="#about">
                         <button className='heroButton'>About</button>
                     </Link>
-                    <Link>
+                    <Link href="#experience">
                         <button className='heroButton'>Experience</button>
                     </Link>
-                    <Link>
+                    <Link href="#skills">
                         <button className='heroButton'>Skills</button>
                     </Link>
-                    <Link>
+                    <Link href="#projects">
                         <button className='heroButton'>Projects</button>
                     </Link>
                 </div>
