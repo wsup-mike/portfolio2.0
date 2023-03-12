@@ -7,6 +7,9 @@ type Props = {}
 
 function Hero({}: Props) {
     const peanut = '/assets/peanut.jpg'
+    const philippineFlag = String.fromCodePoint(0x1F1F5, 0x1F1ED);
+    
+    const puppy = String.fromCodePoint(0x1F436);
     const [text, count] = useTypewriter({
         words: [
             "Wsup, Im Peanut!", 
@@ -24,13 +27,15 @@ function Hero({}: Props) {
             <BackgroundCircles />
             <img src={peanut} className='h-32 w-32 relative rounded-full mx-auto object-cover' alt="Peanuts picture!" />
             <div>
-                <h2 >
-                    MORKIE (Origin: Fili-Peanut)
+                <h2 className='text-sm text-gray-500 pb-2 tracking-[3px]'>
+                    <em>Breed</em>: MORKIE (Origin: Fili-Peanut) {philippineFlag} {puppy}
                 </h2>
-                <h1>
-                    <span>{text}</span>
+                <h1 className='text-5xl lg:text-6xl font-semibold px-10
+                '>
+                    <span className='mr-3'>{text}</span>
                     <Cursor cursorColor='#f7ab0a'/>
                 </h1>
+                
             </div>
         </div>
     )
