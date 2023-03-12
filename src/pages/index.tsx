@@ -35,7 +35,10 @@ export default function Home() {
     
     </section>
 
-    {/* Project */}
+    {/* Projects */}
+    <section id="projects" className='snap-center'>
+    
+    </section>
 
     {/* Contact Me */}
 
