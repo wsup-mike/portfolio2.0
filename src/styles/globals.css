@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-// Here below, to cr8 our own custom css utility class
-// Done via tailwindcss
+
 @layer components { 
     .heroButton {
         @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all hover:border-[#f7ab0a]/40 hover:text-[#f7ab0a]/40 
