@@ -36,11 +36,10 @@ function Hero({}: Props) {
                     <Cursor cursorColor='#f7ab0a'/>
                 </h1>
                 <div>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                    <button></button>
+                    <button className='heroButton'>About</button>
+                    <button className='heroButton'>Experience</button>
+                    <button className='heroButton'>Skills</button>
+                    <button className='heroButton'>Projects</button>
                 </div>
             </div>
         </div>
