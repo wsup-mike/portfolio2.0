@@ -32,7 +32,7 @@ export default function Home() {
     </section>
 
     {/* Skills */}
-    <section id="skills" className='snap-center'>
+    <section id="skills" className='snap-start'>
     
     </section>
 
