@@ -9,7 +9,7 @@ function About({}: Props) {
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
         <motion.img 
             src='./assets/cortez.JPG'
-            className='w-60 h-45 rounded-full'
+            className='w-60 h-45 rounded-full -mb-20 md:mb-0 flex-shrink-0 object-cover'
             initial={{
                 x: -200,
                 opacity: 0,
