@@ -21,8 +21,12 @@ function Skill({ directionLeft, directionRight }: Props) {
                 opacity: 1,
                 x: 0,
             }}
-
         />
+        <div>
+            <div>
+                <p></p>
+            </div>
+        </div>
     </div>
   )
 }
