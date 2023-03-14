@@ -24,11 +24,11 @@ function Header({}: Props) {
             }}
         >
             {/* Social Icons */}
-            <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent' />
-            <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
-            <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
-            <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
-            <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url='https://www.youtube.com/sonnysangha' className='transform scale-75 md:scale-100 lg:scale-125' fgColor='gray' bgColor='transparent' />
+            <SocialIcon url='https://www.youtube.com/sonnysangha' className='transform scale-75 md:scale-100 lg:scale-125' fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url='https://www.youtube.com/sonnysangha' className='transform scale-75 md:scale-100 lg:scale-125' fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url='https://www.youtube.com/sonnysangha' className='transform scale-75 md:scale-100 lg:scale-125' fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url='https://www.youtube.com/sonnysangha' className='transform scale-75 md:scale-100 lg:scale-125' fgColor='gray' bgColor='transparent'/>
         </motion.div>
         <motion.div 
             className='flex flex-row items-center text-gray-300 cursor-pointer'
@@ -47,7 +47,7 @@ function Header({}: Props) {
             }}
         >
             <SocialIcon 
-                className='cursor-pointer'
+                className='cursor-pointer transform scale-75 md:scale-100 lg:scale-125'
                 network='email'
                 fgColor='gray'
                 bgColor='transparent'
