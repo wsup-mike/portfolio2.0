@@ -10,7 +10,7 @@ function About({}: Props) {
         <motion.img 
             src='./assets/cortez.JPG'
             initial={{
-                
+                x: -200,
             }}
         />
     </div> // now snap to center will snap this component 2 center
