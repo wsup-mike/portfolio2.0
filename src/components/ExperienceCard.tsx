@@ -5,7 +5,7 @@ type Props = {}
 
 function ExperienceCard({}: Props) {
   return (
-    <article>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] lg:w-[900px]'>
         <motion.img 
             className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
             src='/assets/netflix.jpg'
