@@ -4,7 +4,7 @@ type Props = {}
 
 function About({}: Props) {
   return (
-    <div>About</div>
+    <div className='h-screen'>About</div> // now snap to center will snap this component 2 center
   )
 }
 
