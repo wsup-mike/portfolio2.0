@@ -28,10 +28,10 @@ function Hero({}: Props) {
             <BackgroundCircles />
             <img src={peanut} className='h-32 w-32 relative rounded-full mx-auto object-cover' alt="Peanuts picture!" />
             <div className='z-20'>
-                <h2 className='text-sm text-gray-500 pb-2 tracking-[3px]'>
+                <h2 className='sm:text-sm md:text-md lg:text-xl text-gray-500 pb-2 tracking-[3px]'>
                     <em>Breed</em>: MORKIE (Origin: Fili-Peanut) {philippineFlag} {puppy}
                 </h2>
-                <h1 className='text-5xl lg:text-6xl font-semibold px-10
+                <h1 className='sm:text-lg md:text-4xl lg:text-6xl font-semibold px-10
                 '>
                     <span className='mr-3'>{text}</span>
                     <Cursor cursorColor='#f7ab0a'/>
