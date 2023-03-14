@@ -23,7 +23,7 @@ function Skill({ directionLeft, directionRight }: Props) {
             }}
         />
         <div>
-            <div>
+            <div className='flex items-center justify-center h-full'>
                 <p className='text-3xl font-bold text-black opacity-100'>10</p>
             </div>
         </div>
