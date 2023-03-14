@@ -11,6 +11,11 @@ function About({}: Props) {
             src='./assets/cortez.JPG'
             initial={{
                 x: -200,
+                opacity: 0,
+            }}
+            animate={{
+                x: 0,
+                opacity: 1,
             }}
         />
     </div> // now snap to center will snap this component 2 center
