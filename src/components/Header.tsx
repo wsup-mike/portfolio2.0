@@ -24,7 +24,7 @@ function Header({}: Props) {
             }}
         >
             {/* Social Icons */}
-            <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent' />
             <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
             <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
             <SocialIcon url='https://www.youtube.com/sonnysangha' fgColor='gray' bgColor='transparent'/>
