@@ -20,7 +20,7 @@ function ExperienceCard({}: Props) {
             viewport={{ once: true }}
             transition={{ duration: 1.0 }}
         />
-        <div>
+        <div className='px-0 md:px-10'>
             <h4>Software Engineer</h4>
             <p>Netflix</p>
             <div>
