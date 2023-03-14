@@ -6,7 +6,7 @@ type Props = {}
 
 function Skills({}: Props) {
   return (
-    <div className='h-screen'>Skills</div>
+    <motion.div className='h-screen'>Skills</motion.div>
   )
 }
 
