@@ -31,7 +31,7 @@ function ExperienceCard({}: Props) {
                 {/* Tech Used - icons */}
             </div>
             <p>Dates of Employment</p>
-            <ul>
+            <ul className='list-disc space-y-4 ml-5 text-lg'>
                 <li>Summary points here</li>
                 <li>Summary points here</li>
                 <li>Summary points here</li>
