@@ -20,6 +20,25 @@ function ExperienceCard({}: Props) {
             viewport={{ once: true }}
             transition={{ duration: 1.0 }}
         />
+        <div>
+            <h4>Software Engineer</h4>
+            <p>Netflix</p>
+            <div>
+                {/* Tech Used - icons */}
+                {/* Tech Used - icons */}
+                {/* Tech Used - icons */}
+                {/* Tech Used - icons */}
+                {/* Tech Used - icons */}
+            </div>
+            <p>Dates of Employment</p>
+            <ul>
+                <li>Summary points here</li>
+                <li>Summary points here</li>
+                <li>Summary points here</li>
+                <li>Summary points here</li>
+                <li>Summary points here</li>
+            </ul>
+        </div>
     </article>
   )
 }
