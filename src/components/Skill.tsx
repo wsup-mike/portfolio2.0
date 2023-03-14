@@ -1,7 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-type Props = {}
+type Props = {
+    directionLeft?: boolean; //? optional! I may or may NOT pass this in!
+    directionRight?: boolean;
+}
 
 function Skill({}: Props) {
   return (
