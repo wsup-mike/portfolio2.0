@@ -45,7 +45,7 @@ function ExperienceCard({}: Props) {
                     src='/assets/ReactIcon.png'
                 />
             </div>
-            <p>Dates of Employment</p>
+            <p className='uppercase py-5 text-gray-400'>Dates of Employment</p>
             <ul className='list-disc space-y-4 ml-5 text-lg'>
                 <li>Summary points here</li>
                 <li>Summary points here</li>
