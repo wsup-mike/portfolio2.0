@@ -22,7 +22,7 @@ function About({}: Props) {
                 duration: 1.0,
             }}
         />
-        <div>
+        <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>Here is a little background info</h4>
         </div>
     </div> // now snap to center will snap this component 2 center
