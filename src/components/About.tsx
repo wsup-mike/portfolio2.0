@@ -12,16 +12,15 @@ function About({}: Props) {
             className='w-60 h-45 rounded-full'
             initial={{
                 x: -200,
-                // opacity: 0,
+                opacity: 0,
             }}
-            whileInView={{x: 0}}
+            whileInView={{
+                x: 0, 
+                opacity: 1
+            }}
             transition={{
-                duration: 1.2,
+                duration: 1.0,
             }}
-            // animate={{
-            //     x: 0,
-            //     opacity: 1,
-            // }}
         />
     </div> // now snap to center will snap this component 2 center
   )
