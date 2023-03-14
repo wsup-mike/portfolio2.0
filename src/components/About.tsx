@@ -15,6 +15,9 @@ function About({}: Props) {
                 // opacity: 0,
             }}
             whileInView={{x: 0}}
+            transition={{
+                duration: 1.2,
+            }}
             // animate={{
             //     x: 0,
             //     opacity: 1,
