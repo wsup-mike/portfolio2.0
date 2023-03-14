@@ -12,8 +12,8 @@ function Skills({}: Props) {
         >Skills</h3>
         <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm'>Hover for more info</h3>
 
-        <div>
-            
+        <div className='grid grid-cols-4 gap-5'>
+
         </div>
     </motion.div>
   )
