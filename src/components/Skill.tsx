@@ -24,7 +24,7 @@ function Skill({ directionLeft, directionRight }: Props) {
         />
         <div>
             <div>
-                <p></p>
+                <p className='text-3xl font-bold text-black opacity-100'>10</p>
             </div>
         </div>
     </div>
