@@ -21,7 +21,7 @@ function ExperienceCard({}: Props) {
             transition={{ duration: 1.0 }}
         />
         <div className='px-0 md:px-10'>
-            <h4>Software Engineer</h4>
+            <h4 className='text-4xl font-light'>Software Engineer</h4>
             <p>Netflix</p>
             <div>
                 {/* Tech Used - icons */}
