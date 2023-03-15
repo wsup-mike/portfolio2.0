@@ -12,8 +12,7 @@ export default function Home() {
       <Head>
         <title>Mike's Portfolio Site</title>
       </Head>
-      <h1 className='text-blue-500 text-2xl'>Joaniss's Portfolio Page</h1>
-      
+
     {/* Header */}
     <Header />
     {/* Hero */}
