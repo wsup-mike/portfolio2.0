@@ -12,9 +12,9 @@ function Projects({}: Props) {
             {/* Projects here */}
             {projects.map((project, i) => (
                 <div className='w-screen  h-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44'>
-                    <p>This is project#:</p>
+                    <p className='text-4xl font-semibold text-center'>This is project#:</p>
                     <p>{project}</p>
-                    <span>Case Study {i+1} of {projects.length}</span>
+                    <span className=''>Case Study {i+1} of {projects.length}</span>
                 </div>
             ))}
         </div>
