@@ -15,6 +15,8 @@ function Projects({}: Props) {
                     <p className='text-4xl font-semibold text-center'>This is project#:</p>
                     <p>{project}</p>
                     <span className=''>Case Study {i+1} of {projects.length}</span>
+                    <p className='text-center md:text-left'>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
+                    </p>
                 </div>
             ))}
         </div>
