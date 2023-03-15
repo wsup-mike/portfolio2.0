@@ -16,16 +16,20 @@ function Projects({}: Props) {
                     <motion.img 
                         className='w-40 h-25' 
                         src='/assets/phoneMockup.png' 
+                    />
+                    {/* <motion.img 
                         initial={{
                             y: -300,
                             opacity: 0,
                         }}
-                        transition={{ duration: 1.2 }}
-                        whileInView={{
+                        transition={{ duration: 1.3 }}
+                        whileInView={{ 
                             y: 0,
                             opacity: 1,
                         }}
-                    />
+                        className='w-40 h-25' 
+                        src='/assets/phoneMockup.png' 
+                    /> */}
                     <p className='text-4xl font-semibold text-center'>This is project#:</p>
                     <p>{project}</p>
                     <span className=''>Case Study {i+1} of {projects.length}</span>
