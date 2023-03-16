@@ -27,6 +27,20 @@ function ContactMe({}: Props) {
                 <p>Chicago, IL USA</p>
               </div>
             </div>
+
+            {/* Form here */}
+            <form> 
+              <div>
+                <input type='text' /><input type='text' />
+              </div>
+
+              <input type='text' />
+
+              <textarea />
+
+              <button></button>
+
+            </form>
         </div>
     </div>
   )
