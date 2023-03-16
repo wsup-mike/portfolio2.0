@@ -8,7 +8,9 @@ function ContactMe({}: Props) {
         <h3 className='absolute top-24 uppercase text-gray-500 tracking-[20px] text-2xl'>Contact Me</h3>
         
         <div>
-            <h4>Need to tweak your Apple or Android mobile app! Call now!</h4>
+            <h4>
+              Need an Apple or Android mobile app! <span className='decoration-[#f7ab0a]/30 underline'>Send me a message!</span>
+            </h4>
         </div>
     </div>
   )
