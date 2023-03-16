@@ -30,8 +30,9 @@ function ContactMe({}: Props) {
 
             {/* Form here */}
             <form className='flex flex-col space-y-2 w-fit mx-auto'> 
-              <div>
-                <input type='text' /><input type='text' />
+              <div className='flex space-x-2'>
+                <input type='text' />
+                <input type='text' />
               </div>
 
               <input type='text' />
