@@ -29,7 +29,7 @@ function ContactMe({}: Props) {
             </div>
 
             {/* Form here */}
-            <form> 
+            <form className='flex flex-col space-y-2 w-fit mx-auto'> 
               <div>
                 <input type='text' /><input type='text' />
               </div>
@@ -38,7 +38,7 @@ function ContactMe({}: Props) {
 
               <textarea />
 
-              <button></button>
+              <button>Submit</button>
 
             </form>
         </div>
