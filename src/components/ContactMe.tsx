@@ -39,7 +39,12 @@ function ContactMe({}: Props) {
 
               <textarea placeholder='Message' className='contactInput'  />
 
-              <button className='bg-[#f7ab0a] py-5 px-10 rounded-md text-black font-bold'>Submit Here</button>
+              <button 
+                className='bg-[#f7ab0a] py-5 px-10 rounded-md text-black font-bold'
+                type='submit'
+              >
+                Submit Here
+              </button>
 
             </form>
         </div>
