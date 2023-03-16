@@ -17,10 +17,16 @@ function ContactMe({}: Props) {
 
   const { register, handleSubmit } = useForm<Inputs>(); // 2 handlers for setting up form
   
-  const onSubmit: SubmitHandler<Inputs> = (data) => {  // what to do with form data upon submission
-    window.location.href = `mailto:coolsuedepumas@gmail.com?subject=${data.subject}&body=Please describe your project, time frame, budget and any provide other pertinent details here:`
-  };
+  // const onSubmit: SubmitHandler<Inputs> = (data) => {  // what to do with form data upon submission (Open in same tab)
+  //   window.location.href = `mailto:coolsuedepumas@gmail.com?subject=${data.subject}&body=Please describe your project, time frame, budget and any provide other pertinent details here:`
+  // };
 
+  //This one opens email template in new tab instead:
+  const onSubmit: SubmitHandler<Inputs> = (data) => {
+    const mailtoLink = `mailto:coolsuedepumas@gmail.com?subject=${data.subject}&body=Please describe your project, time frame, budget and any provide other pertinent details here:`;
+    window.open(mailtoLink, '_blank');
+  };
+  
 
   return (
     <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center'>
