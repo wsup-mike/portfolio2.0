@@ -15,8 +15,10 @@ type Inputs = {
 
 function ContactMe({}: Props) {
 
-  const { register, handleSubmit } = useForm<Inputs>();
-  const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data);
+  const { register, handleSubmit } = useForm<Inputs>(); // 2 handlers for setting up form
+  
+  const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data); // what to do with form data upon submission
+
 
   return (
     <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center'>
@@ -43,7 +45,7 @@ function ContactMe({}: Props) {
             </div>
 
             {/* Form here */}
-            <form className='flex flex-col space-y-2 w-fit mx-auto'> 
+            <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'> 
               <div className='flex space-x-2'>
                 <input placeholder='First Name' className='contactInput' type='text' />
                 <input placeholder='Last Name' className='contactInput' type='text' />
