@@ -4,6 +4,12 @@ import { useForm } from 'react-hook-form'
 
 type Props = {}
 
+
+type Inputs = {
+  example: string,
+  exampleRequired: string,
+};
+
 function ContactMe({}: Props) {
   return (
     <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center'>
