@@ -17,6 +17,10 @@ function ContactMe({}: Props) {
                 <PhoneIcon className='text-[#f7ab0a] h-5 w-5 animate-pulse'/>
                 <p>+1 773 459 3603</p>
               </div>
+              <div className='flex items-center space-x-5 justify-center'>
+                <MapPinIcon className='text-[#f7ab0a] h-5 w-5 animate-pulse'/>
+                <p>Chicago, IL USA</p>
+              </div>
             </div>
         </div>
     </div>
