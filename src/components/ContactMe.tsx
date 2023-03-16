@@ -31,13 +31,13 @@ function ContactMe({}: Props) {
             {/* Form here */}
             <form className='flex flex-col space-y-2 w-fit mx-auto'> 
               <div className='flex space-x-2'>
-                <input placeholder='First Name' className='contactInput' type='text' />
-                <input placeholder='Last Name' className='contactInput' type='text' />
+                <input placeholder='Full Name' className='contactInput' type='text' />
+                <input placeholder='Email' className='contactInput' type='text' />
               </div>
 
-              <input  className='contactInput' type='text' />
+              <input placeholder='Subject' className='contactInput' type='text' />
 
-              <textarea className='contactInput'  />
+              <textarea placeholder='Message' className='contactInput'  />
 
               <button className='bg-[#f7ab0a] py-5 px-10 rounded-md text-black font-bold'>Submit Here</button>
 
