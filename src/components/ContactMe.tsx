@@ -39,7 +39,7 @@ function ContactMe({}: Props) {
 
               <textarea className='contactInput'  />
 
-              <button>Submit Here</button>
+              <button className='bg-[#f7ab0a] py-5 px-10 rounded-md text-black font-bold'>Submit Here</button>
 
             </form>
         </div>
