@@ -12,7 +12,8 @@ function ContactMe({}: Props) {
             <h4 className='text-xl font-semibold text-center'>
               Need an Apple or Android mobile app! <span className='decoration-[#f7ab0a]/30 underline'>Send me a message!</span>
             </h4>
-            <div>
+
+            <div className='space-y-6'>
               <div className='flex items-center space-x-5 justify-center'>
                 <PhoneIcon className='text-[#f7ab0a] h-5 w-5 animate-pulse'/>
                 <p>+1 773 459 3603</p>
