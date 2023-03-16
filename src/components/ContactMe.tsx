@@ -31,10 +31,11 @@ function ContactMe({}: Props) {
             {/* Form here */}
             <form className='flex flex-col space-y-2 w-fit mx-auto'> 
               <div className='flex space-x-2'>
-                <input placeholder='Full Name' className='contactInput' type='text' />
-                <input placeholder='Email' className='contactInput' type='text' />
+                <input placeholder='First Name' className='contactInput' type='text' />
+                <input placeholder='Last Name' className='contactInput' type='text' />
+                
               </div>
-
+              <input placeholder='Email' className='contactInput' type='email' />
               <input placeholder='Subject' className='contactInput' type='text' />
 
               <textarea placeholder='Message' className='contactInput'  />
