@@ -1,4 +1,5 @@
 import React from 'react'
+import { PhoneIcon, MapPinIcon, EnvelopeIcon} from '@heroicons/react/24/solid'
 
 type Props = {}
 
@@ -12,7 +13,7 @@ function ContactMe({}: Props) {
               Need an Apple or Android mobile app! <span className='decoration-[#f7ab0a]/30 underline'>Send me a message!</span>
             </h4>
             <div>
-              
+
             </div>
         </div>
     </div>
