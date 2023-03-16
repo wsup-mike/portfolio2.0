@@ -17,7 +17,9 @@ function ContactMe({}: Props) {
 
   const { register, handleSubmit } = useForm<Inputs>(); // 2 handlers for setting up form
   
-  const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data); // what to do with form data upon submission
+  const onSubmit: SubmitHandler<Inputs> = (data) => {  // what to do with form data upon submission
+    window.location.href = `mailto:coolsuedepumas@gmail.com?subject=${data.subject}&body=Please describe your project, time frame, budget and any provide other pertinent details here:`
+  };
 
 
   return (
