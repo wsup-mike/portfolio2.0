@@ -6,8 +6,11 @@ type Props = {}
 
 
 type Inputs = {
-  example: string,
-  exampleRequired: string,
+  firstName: string,
+  lastName: string,
+  email: string,
+  subject: string,
+  message: string,
 };
 
 function ContactMe({}: Props) {
