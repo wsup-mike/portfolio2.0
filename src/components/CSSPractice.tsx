@@ -12,6 +12,9 @@ function CSSPractice({}: Props) {
                 <p>Box 2</p>
                 <div className='bg-green-800'>
                     <p>Box 3</p>
+                    <div>
+                        <p>Box 4</p>
+                    </div>
                 </div>
             </div>
         </div>
