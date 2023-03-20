@@ -6,9 +6,9 @@ function CSSPractice({}: Props) {
   return (
     <div className='h-screen bg-purple-800'>
         <p>CSS Practice</p>
-        <div>
+        <div className='bg-blue-500'>
             <p>Box 1</p>
-            <div>
+            <div className='bg-orange-700'>
                 <p>Box 2</p>
                 <div>
                     <p>Box 3</p>
