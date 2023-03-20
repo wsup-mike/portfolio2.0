@@ -10,7 +10,7 @@ function CSSPractice({}: Props) {
             <p>Box 1</p>
             <div className='bg-orange-700'>
                 <p>Box 2</p>
-                <div>
+                <div className='bg-green-800'>
                     <p>Box 3</p>
                 </div>
             </div>
