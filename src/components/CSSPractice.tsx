@@ -5,8 +5,8 @@ type Props = {}
 function CSSPractice({}: Props) {
   return (
     <div className='relative h-screen bg-purple-800 flex justify-center items-center flex-col'>
-        <p>CSS Practice</p>
-        <div className='absolute flex justify-center items-center bg-blue-500 h-[400px] w-[400px]'>
+        
+        <div className='absolute bg-blue-500 h-[400px] w-[400px]'>
             <p>Box 1</p>
             <div className='absolute bg-orange-700 h-[350px] w-[350px]'>
                 <p>Box 2</p>
