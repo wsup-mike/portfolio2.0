@@ -10,7 +10,7 @@ function CSSPractice({}: Props) {
             <p className='text-xs border border-white'>Box 1</p>
             <div className=' bg-orange-700 h-[350px] w-[350px] flex justify-center items-center flex-col'>
                 <p className='text-xs'>Box 2</p>
-                <div className=' bg-green-800 h-[300px] w-[300px] flex justify-center items-center flex-col'>
+                <div className='relative top-10 left-10 bg-green-800 h-[300px] w-[300px] flex justify-center items-center flex-col'>
                     <p className='text-xs'>Box 3</p>
                     <div className=' bg-red-800 h-[250px] w-[250px] flex justify-center items-center flex-col'>
                         <p className='text-xs'>Box 4</p>
