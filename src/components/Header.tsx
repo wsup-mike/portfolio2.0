@@ -7,9 +7,9 @@ type Props = {}
 
 function Header({}: Props) {
   return (
-    <header className='sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
+    <header className='sticky top-0 flex items-start justify-between max-w-6xl'>
         <motion.div 
-            className='flex flex-row item-center space-x-0 md:space-x-2 lg:space-x-4'
+            className='flex flex-row item-center '
             initial={{ // the animation's starting point
                 x: -500, //start 500 pixels from left
                 opacity: 0, // starts completely invisible
@@ -25,11 +25,11 @@ function Header({}: Props) {
             }}
         >
             {/* Social Icons */}
-            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white transform scale-75 md:scale-100 lg:scale-125' fgColor='gray' bgColor='transparent' />
-            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white transform scale-75 md:scale-100 lg:scale-125' fgColor='gray' bgColor='transparent'/>
-            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white transform scale-75 md:scale-100 lg:scale-125' fgColor='gray' bgColor='transparent'/>
-            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white transform scale-75 md:scale-100 lg:scale-125' fgColor='gray' bgColor='transparent'/>
-            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white transform scale-75 md:scale-100 lg:scale-125' fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white' fgColor='gray' bgColor='transparent' />
+            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white ' fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white' fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white' fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white' fgColor='gray' bgColor='transparent'/>
         </motion.div>
 
         <Link href='#contact'>
