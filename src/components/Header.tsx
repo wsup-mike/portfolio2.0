@@ -25,15 +25,12 @@ function Header({}: Props) {
             }}
         >
             {/* Social Icons */}
-            <div className='flex space-x-0'>
             <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white scale-50 sm:scale-100' fgColor='gray' bgColor='transparent' />
             <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white  scale-50 sm:scale-100' fgColor='gray' bgColor='transparent'/>
             <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white  scale-50 sm:scale-100' fgColor='gray' bgColor='transparent'/>
             <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white  scale-50 sm:scale-100' fgColor='gray' bgColor='transparent'/>
             <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white  scale-50 sm:scale-100' fgColor='gray' bgColor='transparent'/>
-            </div>
         </motion.div>
-
 
         <Link href='#contact'>
             <motion.div 
