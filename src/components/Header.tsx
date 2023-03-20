@@ -7,9 +7,9 @@ type Props = {}
 
 function Header({}: Props) {
   return (
-    <header className='sticky top-0 flex items-start justify-between max-w-6xl mx-auto z-20'>
+    <header className='sticky top-0 p-2 flex items-start justify-between max-w-6xl mx-auto z-20'>
         <motion.div 
-            className='flex flex-row items-center'
+            className='flex flex-row items-center space-x-0'
             initial={{ // the animation's starting point
                 x: -500, //start 500 pixels from left
                 opacity: 0, // starts completely invisible
@@ -25,12 +25,15 @@ function Header({}: Props) {
             }}
         >
             {/* Social Icons */}
-            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white' fgColor='gray' bgColor='transparent' />
-            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white ' fgColor='gray' bgColor='transparent'/>
-            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white' fgColor='gray' bgColor='transparent'/>
-            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white' fgColor='gray' bgColor='transparent'/>
-            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white' fgColor='gray' bgColor='transparent'/>
+            <div className='flex space-x-0'>
+            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white scale-50 sm:scale-100' fgColor='gray' bgColor='transparent' />
+            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white  scale-50 sm:scale-100' fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white  scale-50 sm:scale-100' fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white  scale-50 sm:scale-100' fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url='https://www.youtube.com/sonnysangha' className='border border-white  scale-50 sm:scale-100' fgColor='gray' bgColor='transparent'/>
+            </div>
         </motion.div>
+
 
         <Link href='#contact'>
             <motion.div 
@@ -51,7 +54,7 @@ function Header({}: Props) {
             >
                 {/* <Link href="#contactme"> */}
                     <SocialIcon 
-                        className='cursor-pointer border border-white '
+                        className='cursor-pointer border border-white  scale-50 sm:scale-100'
                         network='email'
                         fgColor='gray'
                         bgColor='transparent'
