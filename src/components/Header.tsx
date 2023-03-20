@@ -7,9 +7,9 @@ type Props = {}
 
 function Header({}: Props) {
   return (
-    <header className='sticky top-0 flex items-start justify-between max-w-6xl'>
+    <header className='sticky top-0 flex items-start justify-between max-w-6xl mx-auto z-20'>
         <motion.div 
-            className='flex flex-row item-center '
+            className='flex flex-row items-center'
             initial={{ // the animation's starting point
                 x: -500, //start 500 pixels from left
                 opacity: 0, // starts completely invisible
@@ -51,7 +51,7 @@ function Header({}: Props) {
             >
                 {/* <Link href="#contactme"> */}
                     <SocialIcon 
-                        className='cursor-pointer border border-white transform scale-75 md:scale-100 lg:scale-125'
+                        className='cursor-pointer border border-white '
                         network='email'
                         fgColor='gray'
                         bgColor='transparent'
