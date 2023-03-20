@@ -8,7 +8,7 @@ function CSSPractice({}: Props) {
         <p>CSS Practice</p>
         <div className='bg-blue-500 h-[400px] w-[400px]'>
             <p>Box 1</p>
-            <div className='bg-orange-700'>
+            <div className='bg-orange-700 h-[350px] w-[350px]'>
                 <p>Box 2</p>
                 <div className='bg-green-800'>
                     <p>Box 3</p>
