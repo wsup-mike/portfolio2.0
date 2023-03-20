@@ -4,7 +4,7 @@ type Props = {}
 
 function CSSPractice({}: Props) {
   return (
-    <div className='h-screen bg-purple-800 flex justify-center items-center flex-col'>
+    <div className='relative h-screen bg-purple-800 flex justify-center items-center flex-col'>
         <p>CSS Practice</p>
         <div className='absolute bg-blue-500 h-[400px] w-[400px]'>
             <p>Box 1</p>
