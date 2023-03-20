@@ -18,7 +18,7 @@ function CSSPractice({}: Props) {
                             <div className=' bg-yellow-600 h-[100px] w-[100px] flex justify-center items-center'>
                                 <p className='text-xs'>Box 5</p>
                             </div>
-                            <div className='absolute top-10 left-10 bg-blue-600 h-[100px] w-[100px] flex justify-center items-center'>
+                            <div className='absolute top-5 left-5 bg-blue-600 h-[100px] w-[100px] flex justify-center items-center'>
                                 <p className='text-xs'>Box 6</p>
                             </div>
                         </div>
