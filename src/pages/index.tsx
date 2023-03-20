@@ -8,6 +8,7 @@ import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
 import ContactMe from '@/components/ContactMe';
 import Link from 'next/link';
+import CSSPractice from '@/components/CSSPractice';
 
 export default function Home() {
   return (
@@ -47,6 +48,9 @@ export default function Home() {
     {/* Contact Me */}
     <section id="contact" className='snap-start'>
       <ContactMe />
+    </section>
+    <section id="csspractice" className='snap-start'>
+      <CSSPractice />
     </section>
     
     <Link href='#hero'>
