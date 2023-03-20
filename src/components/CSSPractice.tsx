@@ -4,7 +4,9 @@ type Props = {}
 
 function CSSPractice({}: Props) {
   return (
-    <div></div>
+    <div>
+        <p>CSS Practice</p>
+    </div>
   )
 }
 
