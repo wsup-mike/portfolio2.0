@@ -11,11 +11,13 @@ function About({}: Props) {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 2.0 }}
         >
-            <h3 className='absolute h-screen flex top-20 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
+            <h3 className='absolute flex top-20 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
 
             <motion.img 
                 src='./assets/cortez.JPG'
-                className='w-42 h-32 rounded-full -mb-20 md:mb-0 flex-shrink-0 object-cover md:rounded-lg md:w-70 md:h-55 lg:w-[600px] lg:h-[450px]'
+                // className='w-42 h-32 rounded-full -mb-20 md:mb-0 flex-shrink-0 object-cover md:rounded-lg md:w-70 md:h-55 lg:w-[600px] lg:h-[450px]'
+                
+                className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-44 rounded-full object-cover md:rounded-lg md:w-64 md:h-56'
                 initial={{
                     x: -200,
                     opacity: 0,
