@@ -30,8 +30,8 @@ function About({}: Props) {
                     duration: 1.0,
                 }}
             />
-            <div className='space-y-2 px-0 md:px-10'>
-                <h4 className='sm:text-md md:text-xl lg:text-4xl font-semibold'>Here is a <span className='underline decoration-[#f7ab0a]/50'>little</span> background info</h4>
+            <div className='space-y-2 px-0 md:pl-14'>
+                <h4 className='sm:text-md md:text-2xl lg:text-4xl font-semibold'>Here is a <span className='underline decoration-[#f7ab0a]/50'>little</span> background info</h4>
                 
                 <p className='sm:text-base text-xs'>
                     Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.
