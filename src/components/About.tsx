@@ -6,7 +6,7 @@ type Props = {}
 function About({}: Props) {
   return (
         <motion.div 
-            className=' h-screen flex-col relative flex text-center md:text-left md:flex-row max-w-7xl px-10 justify-center mx-auto items-center space-y-3'
+            className=' h-screen flex-col relative flex text-center md:text-left md:flex-row max-w-7xl px-10 justify-center mx-auto items-center space-y-7'
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 2.0 }}
