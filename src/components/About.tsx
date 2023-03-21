@@ -12,7 +12,7 @@ function About({}: Props) {
         transition={{ duration: 2.0 }}
     >
         
-        <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
+        <h3 className=' top-20 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
         
         <motion.img 
             src='./assets/cortez.JPG'
