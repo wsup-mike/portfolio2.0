@@ -5,15 +5,15 @@ type Props = {}
 
 function About({}: Props) {
   return (
-    <div className='h-screen'>
-        <h3 className=' flex relative top-20 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
-
+    
         <motion.div 
-            className=' flex-col relative flex text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'
+            className=' h-screen flex-col relative flex text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 2.0 }}
         >
+            <h3 className='h-screen flex relative top-20 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
+
             <motion.img 
                 src='./assets/cortez.JPG'
                 className='w-42 h-32 rounded-full -mb-20 md:mb-0 flex-shrink-0 object-cover md:rounded-lg md:w-70 md:h-55 lg:w-[600px] lg:h-[450px]'
@@ -36,7 +36,7 @@ function About({}: Props) {
                 </p>
             </div>
         </motion.div> 
-    </div>
+    
   )
 }
 
