@@ -23,7 +23,7 @@ function ExperienceCard({}: Props) {
         <div className='px-0 md:px-10'>
             <h4 className='text-lg font-light'>Software Engineer</h4>
             <p className='font-bold text-lg'>Netflix</p>
-            <div className='flex space-x-2 my-2'>
+            <div className='flex space-x-1 my-2'>
                 <img 
                     className='w-11 h-10 rounded'
                     src='/assets/ReactIcon.png'
