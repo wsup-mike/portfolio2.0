@@ -5,7 +5,7 @@ type Props = {}
 
 function ExperienceCard({}: Props) {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-2 flex-shrink-0 w-[220px] md:w-[250px] lg:w-[900px] snap-center bg-[#292929] p-2 opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-500 overflow-hidden border border-yellow-400'>
+    <article className='flex flex-col rounded-lg items-center space-y-1 flex-shrink-0 w-[220px] md:w-[250px] lg:w-[900px] snap-center bg-[#292929] p-2 opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-500 overflow-hidden border border-yellow-400'>
         <motion.img 
             className='w-10 h-10 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
             src='/assets/netflix.jpg'
@@ -22,7 +22,7 @@ function ExperienceCard({}: Props) {
         />
         <div className='px-0 md:px-10'>
             <h4 className='text-lg font-light'>Software Engineer</h4>
-            <p className='font-bold text-2xl mt-1'>Netflix</p>
+            <p className='font-bold text-lg'>Netflix</p>
             <div className='flex space-x-2 my-2'>
                 <img 
                     className='w-11 h-10 rounded'
