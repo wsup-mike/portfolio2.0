@@ -12,10 +12,12 @@ function WorkExperience({}: Props) {
         whileInView={{ opacity: 1}}
         transition={{ duration: 1.0 }}
     >
+        
         <h3
             // className='absolute top-24 uppercase tracking-[20px] text-center text-gray-500 text-md sm:text-2xl'
             className='absolute top-24 uppercase tracking-[20px] text-center text-gray-500 text-xl whitespace-pre-line'
-        >Work Experience</h3>
+        >Work 
+        Experience</h3>
         <div className='w-full sm:space-x-9 flex overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-pink-400 scrollbar-thumb-teal-600 mt-36 md:mt-80 lg:mt-80'>
             <ExperienceCard />
             <ExperienceCard />
