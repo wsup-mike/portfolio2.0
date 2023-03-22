@@ -7,7 +7,7 @@ type Props = {}
 function WorkExperience({}: Props) {
   return (
     <motion.div 
-        className='h-screen flex relative overflow-hidden flex-col md:flex-row max-w-full px-6 md:px-10 justify-center mx-auto items-center '
+        className='h-screen flex relative overflow-hidden flex-col md:flex-row max-w-full px-6 md:px-10 justify-center mx-auto items-center mt-44'
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1}}
         transition={{ duration: 1.0 }}
