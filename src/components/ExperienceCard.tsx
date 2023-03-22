@@ -25,23 +25,23 @@ function ExperienceCard({}: Props) {
             <p className='font-bold text-lg'>Netflix</p>
             <div className='flex space-x-1 my-2'>
                 <img 
-                    className='w-11 h-10 rounded'
+                    className='w-6 h-5 rounded'
                     src='/assets/ReactIcon.png'
                 />
                 <img 
-                    className='w-11 h-10 rounded'
+                    className='w-6 h-5 rounded'
                     src='/assets/ReactIcon.png'
                 />
                 <img 
-                    className='w-11 h-10 rounded'
+                    className='w-6 h-5 rounded'
                     src='/assets/ReactIcon.png'
                 />
                 <img 
-                    className='w-11 h-10 rounded'
+                    className='w-6 h-5 rounded'
                     src='/assets/ReactIcon.png'
                 />
                 <img 
-                    className='w-11 h-10 rounded'
+                    className='w-6 h-5 rounded'
                     src='/assets/ReactIcon.png'
                 />
             </div>
