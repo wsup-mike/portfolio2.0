@@ -5,9 +5,9 @@ type Props = {}
 
 function ExperienceCard({}: Props) {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[220px] md:w-[250px] lg:w-[900px] snap-center bg-[#292929] p-10 opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-500 overflow-hidden border border-yellow-400'>
+    <article className='flex flex-col rounded-lg items-center space-y-2 flex-shrink-0 w-[220px] md:w-[250px] lg:w-[900px] snap-center bg-[#292929] p-2 opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-500 overflow-hidden border border-yellow-400'>
         <motion.img 
-            className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
+            className='w-10 h-10 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
             src='/assets/netflix.jpg'
             initial={{
                 y: -100,
