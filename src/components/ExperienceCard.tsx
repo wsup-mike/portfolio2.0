@@ -46,7 +46,7 @@ function ExperienceCard({}: Props) {
                 />
             </div>
             <p className='uppercase pt-1 text-xs text-gray-400'>Dates of Employment</p>
-            <ul className='list-disc space-y-4 ml-5 text-lg'>
+            <ul className='list-disc space-y-4 ml-5 text-xs mt-2'>
                 <li>Summary points here. Summary points here. Summary points here. Summary points here</li>
                 <li>Summary points here. Summary points here. Summary points here. Summary points here</li>
                 <li>Summary points here. Summary points here. Summary points here. Summary points here</li>
