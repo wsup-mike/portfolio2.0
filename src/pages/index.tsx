@@ -54,7 +54,7 @@ export default function Home() {
     </section>
     
     
-      <footer className=' w-full '>
+      <footer className=' w-full h-20 '>
       <Link href='#hero'>
         <div className='h-10 w-10  rounded-full bg-orange-500 hover:bg-purple-500 z-10 ml-2 sticky bottom-5 cursor-pointer  '>
           <p className='text-xs text-center'>Home</p>
