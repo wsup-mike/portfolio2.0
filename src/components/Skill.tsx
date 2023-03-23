@@ -11,7 +11,7 @@ function Skill({ directionLeft, directionRight }: Props) {
     <div className='group relative flex cursor-pointer'>
         <img 
             src='/assets/ReactIcon.png'
-            className='rounded border border-gray-500 object-cover w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 filter group-hover:grayscale transition duration-700 ease-in-out'
+            className='rounded object-cover w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 filter group-hover:grayscale transition duration-700 ease-in-out'
 
         />
         {/* <motion.img 
