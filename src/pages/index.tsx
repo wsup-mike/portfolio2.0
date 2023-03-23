@@ -54,20 +54,15 @@ export default function Home() {
     </section>
     
     
-      <footer className=' w-full h-20 '>
+    
+
+      <footer className='sticky bottom-5 w-full  hover:grayscale-0 '>
       <Link href='#hero'>
-        <div className='h-10 w-10  rounded-full bg-orange-500 hover:bg-purple-500 z-10 ml-2 sticky bottom-5 cursor-pointer  '>
+        <div className='cursor-pointer h-10 w-10 rounded-full bg-orange-500 hover:bg-purple-500 z-10 ml-2'>
           <p className='text-xs text-center'>Home</p>
         </div>
       </Link>
       </footer>
-      {/* <footer className='sticky bottom-5 w-full cursor-pointer hover:grayscale-0 '>
-      <Link href='#hero'>
-        <div className='h-10 w-10 rounded-full bg-orange-500 hover:bg-purple-500 z-10 ml-2'>
-          <p className='text-xs text-center'>Home</p>
-        </div>
-      </Link>
-      </footer> */}
     
     </div>
   )
