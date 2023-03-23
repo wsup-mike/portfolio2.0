@@ -15,7 +15,7 @@ function Projects({}: Props) {
                 {projects.map((project, i) => (
                     <div className='w-screen  h-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center  p-5 px-10 sm:px-20 md:px-28'>
                         <motion.img 
-                            className='w-28 h-20 sm:w-44 sm:h-28'
+                            className='w-28 h-20 sm:w-44 sm:h-28 md:w-52 md:h-36'
                             src='/assets/phoneMockup.png' 
                         />
                         {/* <motion.img 
