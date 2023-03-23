@@ -7,7 +7,7 @@ function ExperienceCard({}: Props) {
   return (
     <article className='flex flex-col rounded-lg items-center space-y-1 flex-shrink-0 w-[260px] snap-center bg-[#292929] p-2 opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-500 overflow-hidden border border-yellow-400'>
         <motion.img 
-            className='w-[100px] h-[100px] rounded-full  object-cover object-center'
+            className='w-[50px] h-[50px] rounded-full  object-cover object-center'
             src='/assets/netflix.jpg'
             initial={{
                 y: -100,
