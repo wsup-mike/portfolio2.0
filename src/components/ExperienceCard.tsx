@@ -5,7 +5,7 @@ type Props = {}
 
 function ExperienceCard({}: Props) {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-1 flex-shrink-0 w-[260px] md:w-[300px] md:h-[350px] snap-center bg-[#292929] p-5 opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-500 overflow-hidden border border-yellow-400'>
+    <article className='flex flex-col rounded-lg items-center space-y-1 flex-shrink-0 w-[260px] md:w-[300px] md:h-[375px] snap-center bg-[#292929] p-5 opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-500 overflow-hidden border border-yellow-400'>
         <motion.img 
             className='w-[100px] h-[100px] rounded-full  object-cover object-center'
             src='/assets/netflix.jpg'
