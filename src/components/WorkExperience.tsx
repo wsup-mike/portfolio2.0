@@ -7,7 +7,7 @@ type Props = {}
 function WorkExperience({}: Props) {
   return (
     <motion.div 
-        className='h-screen flex relative overflow-hidden flex-col md:flex-row max-w-full px-10 md:px-40 justify-start mx-auto items-center '
+        className='h-screen flex relative overflow-hidden flex-col md:flex-row max-w-full px-2 md:px-40 justify-start mx-auto items-center '
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1}}
         transition={{ duration: 1.0 }}
@@ -17,7 +17,7 @@ function WorkExperience({}: Props) {
             // className='absolute top-24 uppercase tracking-[20px] text-center text-gray-500 text-md sm:text-2xl'
             className='absolute top-24 uppercase tracking-[20px] text-center text-gray-500 text-sm sm:text-xl'
         >Work Experience</h3>
-        <div className='w-full space-x-10 flex overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-pink-400 scrollbar-thumb-teal-600 mt-36 md:mt-117 lg:mt-80'>
+        <div className='w-full space-x-5 flex overflow-x-scroll py-5 px-10 snap-x snap-mandatory scrollbar scrollbar-track-pink-400 scrollbar-thumb-teal-600 mt-36 md:mt-117 lg:mt-80'>
             <ExperienceCard />
             <ExperienceCard />
             <ExperienceCard />
