@@ -7,15 +7,15 @@ function Projects({}: Props) {
     const projects = [1, 2, 3, 4, 5];
 
     return (
-        <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
+        <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0 '>
             <h3 className='absolute top-24 uppercase text-gray-500 tracking-[20px] text-2xl'>Projects</h3>
 
-            <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-pink-400 scrollbar-thumb-teal-600 mt-36'>
+            <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-pink-400 scrollbar-thumb-teal-600  mt-36 md:mt-72 border border-yellow-300'>
                 {/* Projects here */}
                 {projects.map((project, i) => (
-                    <div className='w-screen  h-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center  p-5 px-10'>
+                    <div className='w-screen  h-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center  p-5 px-10 sm:px-20 md:px-28'>
                         <motion.img 
-                            className='w-28 h-20 sm:w-36 sm:h-32'
+                            className='w-28 h-20 sm:w-44 sm:h-28'
                             src='/assets/phoneMockup.png' 
                         />
                         {/* <motion.img 
@@ -34,7 +34,7 @@ function Projects({}: Props) {
                         <p className='text-lg font-semibold text-center'>This is project#:</p>
                         <p>{project}</p>
                         <span className=''>Case Study {i+1} of {projects.length}</span>
-                        <p className='text-center text-sm md:text-left'>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
+                        <p className='text-center text-sm sm:text-left'>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
                         </p>
                     </div>
                 ))}
