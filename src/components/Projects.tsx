@@ -10,10 +10,10 @@ function Projects({}: Props) {
         <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0 '>
             <h3 className='absolute top-24 uppercase text-gray-500 tracking-[20px] text-2xl'>Projects</h3>
 
-            <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-pink-400 scrollbar-thumb-teal-600  mt-36 md:mt-72 border border-yellow-300'>
+            <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-pink-400 scrollbar-thumb-teal-600 mt-20 md:mt-28 border border-yellow-300'>
                 {/* Projects here */}
                 {projects.map((project, i) => (
-                    <div className='w-screen  h-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center  p-5 px-10 sm:px-20 md:px-28'>
+                    <div className='w-screen  flex-shrink-0 snap-center flex flex-col space-y-1 items-center  p-5 px-10 sm:px-32 md:px-52'>
                         <motion.img 
                             className='w-28 h-20 sm:w-44 sm:h-28 md:w-52 md:h-36'
                             src='/assets/phoneMockup.png' 
