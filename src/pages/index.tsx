@@ -53,13 +53,22 @@ export default function Home() {
       <CSSPractice />
     </section>
     
-    <Link href='#hero'>
-      <footer className='sticky bottom-5 w-full cursor-pointer hover:grayscale-0 '>
+    
+      <footer className=' w-full '>
+      <Link href='#hero'>
+        <div className='h-10 w-10  rounded-full bg-orange-500 hover:bg-purple-500 z-10 ml-2 sticky bottom-5 cursor-pointer  '>
+          <p className='text-xs text-center'>Home</p>
+        </div>
+      </Link>
+      </footer>
+      {/* <footer className='sticky bottom-5 w-full cursor-pointer hover:grayscale-0 '>
+      <Link href='#hero'>
         <div className='h-10 w-10 rounded-full bg-orange-500 hover:bg-purple-500 z-10 ml-2'>
           <p className='text-xs text-center'>Home</p>
         </div>
-      </footer>
-    </Link>
+      </Link>
+      </footer> */}
+    
     </div>
   )
 }
