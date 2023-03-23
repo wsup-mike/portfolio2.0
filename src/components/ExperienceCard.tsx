@@ -7,7 +7,7 @@ function ExperienceCard({}: Props) {
   return (
     <article className='flex flex-col rounded-lg items-center space-y-1 flex-shrink-0 w-[260px] snap-center bg-[#292929] p-2 opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-500 overflow-hidden border border-yellow-400'>
         <motion.img 
-            className='w-10 h-10 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
+            className='w-[100px] h-[100px] rounded-full  object-cover object-center'
             src='/assets/netflix.jpg'
             initial={{
                 y: -100,
@@ -46,8 +46,7 @@ function ExperienceCard({}: Props) {
                 />
             </div>
             <p className='pt-1 text-xs text-gray-400'>Jun 2018 -  Aug 2019</p>
-            <ul className='space-y-4 ml-2 text-xs mt-2 px-1 overflow-y-auto scrollbar-track-transparent max-h-48'>
-                <li>Summary points here. Summary points here. Summary points here. Summary points here</li>
+            <ul className='space-y-4 ml-2 text-xs mt-2 px-1 overflow-y-auto scrollbar-track-transparent'>
                 <li>Summary points here. Summary points here. Summary points here. Summary points here</li>
                 <li>Summary points here. Summary points here. Summary points here. Summary points here</li>
                 <li>Summary points here. Summary points here. Summary points here. Summary points here</li>
