@@ -8,7 +8,7 @@ function ExperienceCard({}: Props) {
     <article className='flex flex-col rounded-lg items-center space-y-1 flex-shrink-0 w-[260px] snap-center bg-[#292929] p-2 opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-500 overflow-hidden border border-yellow-400'>
         <motion.img 
             className='w-10 h-10 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
-            src='/assets/peanut.jpg'
+            src='/assets/netflix.jpg'
             initial={{
                 y: -100,
                 opacity: 0,
@@ -45,7 +45,7 @@ function ExperienceCard({}: Props) {
                     src='/assets/ReactIcon.png'
                 />
             </div>
-            <p className='uppercase pt-1 text-xs text-gray-400'>Dates of Employment</p>
+            <p className='pt-1 text-xs text-gray-400'>Jun 2018 -  Aug 2019</p>
             <ul className='list-disc space-y-4 ml-5 text-xs mt-2 px-1 overflow-y-auto max-h-48 list-inside'>
                 <li>Summary points here. Summary points here. Summary points here. Summary points here</li>
                 <li>Summary points here. Summary points here. Summary points here. Summary points here</li>
