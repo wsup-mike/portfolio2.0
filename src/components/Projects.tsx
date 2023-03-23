@@ -13,7 +13,7 @@ function Projects({}: Props) {
             <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-pink-400 scrollbar-thumb-teal-600 mt-40'>
                 {/* Projects here */}
                 {projects.map((project, i) => (
-                    <div className='w-screen  h-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 md:p-44'>
+                    <div className='w-screen  h-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center  p-5'>
                         <motion.img 
                             className='w-20 h-15' 
                             src='/assets/phoneMockup.png' 
@@ -31,7 +31,7 @@ function Projects({}: Props) {
                             className='w-40 h-25' 
                             src='/assets/phoneMockup.png' 
                         /> */}
-                        <p className='text-4xl font-semibold text-center'>This is project#:</p>
+                        <p className='text-lg font-semibold text-center'>This is project#:</p>
                         <p>{project}</p>
                         <span className=''>Case Study {i+1} of {projects.length}</span>
                         <p className='text-center md:text-left'>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
