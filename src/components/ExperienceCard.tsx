@@ -46,7 +46,7 @@ function ExperienceCard({}: Props) {
                 />
             </div>
             <p className='pt-1 text-xs text-gray-400'>Jun 2018 -  Aug 2019</p>
-            <ul className='list-disc space-y-4 ml-2 text-xs mt-2 px-1 overflow-y-auto scrollbar-track-transparent max-h-48'>
+            <ul className='space-y-4 ml-2 text-xs mt-2 px-1 overflow-y-auto scrollbar-track-transparent max-h-48'>
                 <li>Summary points here. Summary points here. Summary points here. Summary points here</li>
                 <li>Summary points here. Summary points here. Summary points here. Summary points here</li>
                 <li>Summary points here. Summary points here. Summary points here. Summary points here</li>
