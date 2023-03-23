@@ -58,8 +58,8 @@ export default function Home() {
 
     
     <Link href='#hero'>
-      <div className='sticky bottom-5 cursor-pointer h-10 w-10 rounded-full bg-orange-500 hover:bg-purple-500 z-10 ml-2'>
-        <p className='text-xs text-center'>Home</p>
+      <div className='sticky bottom-5 cursor-pointer h-10 w-10 rounded-full bg-orange-500 hover:bg-purple-500 z-10 ml-2 flex justify-center items-center'>
+        <p className='text-xs '>Home</p>
       </div>
     </Link>
     
