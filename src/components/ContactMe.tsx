@@ -33,7 +33,7 @@ function ContactMe({}: Props) {
         <h3 className='absolute top-24 uppercase text-gray-500 tracking-[20px] text-center text-sm'>Contact Me</h3>
   
         <div className='flex flex-col space-y-10 mt-56'>
-            <h4 className='text-xl font-semibold text-center'>
+            <h4 className='text-xs font-semibold text-center whitespace-normal'>
               Need an Apple or Android mobile app! <span className='decoration-[#f7ab0a]/30 underline'>Send me a message!</span>
             </h4>
 
