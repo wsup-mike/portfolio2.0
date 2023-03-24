@@ -34,21 +34,21 @@ function ContactMe({}: Props) {
   
         <div className='flex flex-col space-y-1 mt-36 border border-yellow-300 w-full p-6'>
             <h4 className='text-sm font-semibold text-center whitespace-normal'>
-              Need an Apple or Android mobile app! <span className='decoration-[#f7ab0a]/30 underline'>Send me a message!</span>
+              Need an Apple or Android mobile app! <span className='decoration-[#f7ab0a]/30 underline'>Call direct or send me a message!</span>
             </h4>
 
-            <div className='space-y-1'>
+            <div className='space-y-3'>
               <div className='flex items-center space-x-2 justify-center'>
                 <PhoneIcon className='text-[#f7ab0a] h-3 w-3 animate-pulse'/>
-                <p>+1 773 459 3603</p>
+                <p className='text-xs'>+1 773 459 3603</p>
               </div>
               <div className='flex items-center space-x-2 justify-center'>
                 <EnvelopeIcon className='text-[#f7ab0a] h-3 w-3 animate-pulse'/>
-                <p>hello@wsupmike.com</p>
+                <p className='text-xs'>hello@wsupmike.com</p>
               </div>
               <div className='flex items-center space-x-2 justify-center'>
                 <MapPinIcon className='text-[#f7ab0a] h-3 w-3 animate-pulse'/>
-                <p>Chicago, IL USA</p>
+                <p className='text-xs'>Chicago, IL USA</p>
               </div>
             </div>
 
