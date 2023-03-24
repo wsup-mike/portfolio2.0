@@ -4,7 +4,6 @@ import { useForm, SubmitHandler } from 'react-hook-form'
 
 type Props = {}
 
-
 type Inputs = {
   firstName: string,
   lastName: string,
@@ -26,13 +25,12 @@ function ContactMe({}: Props) {
     const mailtoLink = `mailto:coolsuedepumas@gmail.com?subject=${data.subject}&body=Please describe your project, time frame, budget and any provide other pertinent details here:`;
     window.open(mailtoLink, '_blank');
   };
-  
 
   return (
     <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center '>
         <h3 className='absolute top-24 uppercase text-gray-500 tracking-[10px] text-center text-lg'>Contact Me</h3>
   
-        <div className='flex flex-col space-y-1 mt-36 border border-yellow-300 w-full p-6'>
+        <div className='flex flex-col space-y-5 mt-36 border border-yellow-300 w-full p-6'>
             <h4 className='text-sm font-semibold text-center whitespace-normal'>
               Need an Apple or Android mobile app! <span className='decoration-[#f7ab0a]/30 underline'>Call direct or send me a message!</span>
             </h4>
