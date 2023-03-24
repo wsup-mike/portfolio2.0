@@ -39,15 +39,15 @@ function ContactMe({}: Props) {
 
             <div className='space-y-1'>
               <div className='flex items-center space-x-5 justify-center'>
-                <PhoneIcon className='text-[#f7ab0a] h-2 w-2 animate-pulse'/>
+                <PhoneIcon className='text-[#f7ab0a] h-3 w-3 animate-pulse'/>
                 <p>+1 773 459 3603</p>
               </div>
               <div className='flex items-center space-x-5 justify-center'>
-                <EnvelopeIcon className='text-[#f7ab0a] h-5 w-5 animate-pulse'/>
+                <EnvelopeIcon className='text-[#f7ab0a] h-3 w-3 animate-pulse'/>
                 <p>hello@wsupmike.com</p>
               </div>
               <div className='flex items-center space-x-5 justify-center'>
-                <MapPinIcon className='text-[#f7ab0a] h-5 w-5 animate-pulse'/>
+                <MapPinIcon className='text-[#f7ab0a] h-3 w-3 animate-pulse'/>
                 <p>Chicago, IL USA</p>
               </div>
             </div>
