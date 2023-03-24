@@ -30,16 +30,16 @@ function ContactMe({}: Props) {
 
   return (
     <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center '>
-        <h3 className='absolute top-24 uppercase text-gray-500 tracking-[20px] text-center text-sm'>Contact Me</h3>
+        <h3 className='absolute top-24 uppercase text-gray-500 tracking-[10px] text-center text-lg'>Contact Me</h3>
   
-        <div className='flex flex-col space-y-1 mt-72 border border-yellow-300 w-full p-6'>
+        <div className='flex flex-col space-y-1 mt-36 border border-yellow-300 w-full p-6'>
             <h4 className='text-sm font-semibold text-center whitespace-normal'>
               Need an Apple or Android mobile app! <span className='decoration-[#f7ab0a]/30 underline'>Send me a message!</span>
             </h4>
 
-            <div className='space-y-6'>
+            <div className='space-y-1'>
               <div className='flex items-center space-x-5 justify-center'>
-                <PhoneIcon className='text-[#f7ab0a] h-5 w-5 animate-pulse'/>
+                <PhoneIcon className='text-[#f7ab0a] h-2 w-2 animate-pulse'/>
                 <p>+1 773 459 3603</p>
               </div>
               <div className='flex items-center space-x-5 justify-center'>
