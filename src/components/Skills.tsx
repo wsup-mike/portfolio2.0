@@ -8,7 +8,7 @@ type Props = {}
 function Skills({}: Props) {
   return (
     <motion.div 
-        className='flex relative flex-col text-center md:text-left lg:flex-row max-w-[2000px] lg:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'
+        className='flex relative flex-col text-center md:text-left lg:flex-row max-w-[2000px] lg:px-10 min-h-screen justify-center xl:space-y-30 mx-auto items-center'
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
