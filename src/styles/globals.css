@@ -25,5 +25,6 @@
         focus:border-[#f7ab0a]/40 
         focus:text-[#f7ab0a]/40 
         hover:border-[#f7ab0a]/40
+        w-full
     }
 }
