@@ -51,7 +51,7 @@ function ContactMe({}: Props) {
             </div>
 
             {/* Form here */}
-            <div className='max-w-sm'>
+            <div className='min-w-[320px]'>
             <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'> 
               <div className='flex space-x-2'>
                 <input {...register('firstName')} placeholder='First Name' className='contactInput' type='text' />
