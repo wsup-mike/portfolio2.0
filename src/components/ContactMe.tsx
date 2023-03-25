@@ -51,7 +51,7 @@ function ContactMe({}: Props) {
             </div>
 
             {/* Form here */}
-            
+            <div className='max-w-sm'>
             <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'> 
               <div className='flex space-x-2'>
                 <input {...register('firstName')} placeholder='First Name' className='contactInput' type='text' />
@@ -70,6 +70,7 @@ function ContactMe({}: Props) {
               </button>
 
             </form>
+            </div>
             
         </div>
     </div>
