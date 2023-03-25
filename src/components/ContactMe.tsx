@@ -51,7 +51,7 @@ function ContactMe({}: Props) {
             </div>
 
             {/* Form here */}
-            <div className='min-w-[320px] max-w-[500px] px-8 md:px-12 border border-purple-500'>
+            <div className='min-w-[320px] max-w-[500px] px-8 md:px-20 border border-purple-500'>
             <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'> 
               <div className='flex space-x-2'>
                 <input {...register('firstName')} placeholder='First Name' className='contactInput' type='text' />
@@ -63,7 +63,7 @@ function ContactMe({}: Props) {
               <textarea {...register('message')} placeholder='Message' className='contactInput' />
 
               <button 
-                className='bg-[#f7ab0a] py-5 px-10 rounded-md text-black font-bold'
+                className='bg-[#f7ab0a] py-3 px-10 rounded-md text-black font-bold'
                 type='submit'
               >
                 Submit Here
